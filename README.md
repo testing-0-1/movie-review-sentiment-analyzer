@@ -38,7 +38,25 @@ Python, Pandas, NumPy, Scikit-learn, Streamlit, Matplotlib, Seaborn, Jupyter Not
    ```
 
 3. Download the required datasets and place them in the `data/` directory. See the project documentation for the required filenames.
-4. Launch the application:
+4. ### Required Datasets
+
+To use the **Movie Explorer**, download these two Rotten Tomatoes datasets:
+
+1. `rotten_tomatoes_movies.csv` — contains movie information used to display and search the movie list.
+2. `rotten_tomatoes_critic_reviews.csv` — contains critics' reviews that the application analyzes.
+
+Place both files inside the `data/` folder, using **exactly these filenames**:
+
+```text
+data/
+├── rotten_tomatoes_movies.csv
+└── rotten_tomatoes_critic_reviews.csv
+```
+
+The IMDb dataset is also required for the Dataset Explorer and the application's other dataset-dependent features. Place it in the same folder as `IMDB Dataset.csv`.
+
+These CSV files are not included in the GitHub repository because of their size. Download them separately from their original dataset source before running the application.
+5. Launch the application:
 
    ```bash
    streamlit run app.py
