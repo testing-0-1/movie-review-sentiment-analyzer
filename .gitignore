@@ -1,0 +1,15 @@
+
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+.env
+
+# Dataset files
+data/*.csv
+
+# Temporary test files
+review.csv
+reviewTest.txt
+sentiment_analysis_results.csv
