@@ -1,7 +1,11 @@
 # Sentiment Analysis Dashboard
 
 An interactive sentiment analysis application built with Python, Scikit-learn, and Streamlit to classify movie reviews as positive or negative.
+## Live Demo
 
+Try the application here: [**Movie Review Sentiment Analyzer**](https://movie-review-sentiment-analyzer-yj7e45pqvrkru3kx8vj89q.streamlit.app/)
+
+Enter a movie review to predict whether its sentiment is positive or negative.
 ## Features
 
 - **Review Analyzer:** Predict the sentiment of a review and display confidence.
